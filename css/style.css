@@ -15,16 +15,18 @@ body{
   
 }
 a{
-    color: #162938;
+    /* color: #162938; */
 }
 .sec{
-    width: 440px;
-    height: 440px;
+    width: 340px;
+    height: 550px;
     background: transparent;
-    border: 2px solid gray;
-    border-radius: 4px;
+    border: 1px solid rgb(166, 193, 166);
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 60px;
+     border: 2px sold rgb(78, 139, 61);
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 30px rgba(0, 0, 0, -5);
+    box-shadow: 0 0 50px #18841099;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,14 +52,6 @@ a{
     margin: 30px 0;
     position: relative;
 }
-
-/*.input_bx input{
-   width: 100%;
-   height: 100%;
-   background: transparent;
-   border: none;
-   outline: none;
- } */
 .input_bx label{
     position: absolute;
     top: 50%; 
@@ -82,10 +76,10 @@ a{
     border: none;
     outline: none;
     font-size: 1rem;
-    color: #fff;
+    color: #000;
     padding: 0px 10px;
  }
-.input_bx .icon{
+ .icon{
     position: absolute;
     right: 8px;
     font-size: 1.2rem;
@@ -113,9 +107,6 @@ button{
     width: 100%;
     height: 45px;
     background-color: #162938;
-    /* margin: auto; */
-    /* text-align: center; */
-    /* align-items: center; */
     border: none;
     outline: none;
     border-radius: 5px;
@@ -124,6 +115,9 @@ button{
     font-size: 20px;
     font-weight: 500;
 
+}
+button:hover{
+    background-color: darkgreen;
 }
 .register_1{
     width: 100%;
